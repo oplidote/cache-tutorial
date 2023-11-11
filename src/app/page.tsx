@@ -1,12 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
 
 export default function Home() {
-  return (
-    <main>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </main>
-  )
+  return <main>메인 페이지</main>
 }
