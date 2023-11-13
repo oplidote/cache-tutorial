@@ -1,5 +1,5 @@
-const page = () => {
+const Page = () => {
   return <div>팀 페이지</div>
 }
 
-export default page
+export default Page
