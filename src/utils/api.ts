@@ -1,0 +1,12 @@
+import axios from 'axios'
+
+export const getTodos = async () => {
+  try {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/todos')
+    return response
+  } catch (error) {
+    console.log(error)
+  } finally {
+    return null
+  }
+}
