@@ -6,7 +6,5 @@ export const getTodos = async () => {
     return response
   } catch (error) {
     console.log(error)
-  } finally {
-    return null
   }
 }

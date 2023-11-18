@@ -4,7 +4,7 @@ import TodoList from '@/components/todo/TodoList'
 
 const TodoPage = () => {
   return (
-    <div className="flex justify-center my-10">
+    <div className="flex flex-col justify-center my-10 items-center">
       <TodoList />
     </div>
   )

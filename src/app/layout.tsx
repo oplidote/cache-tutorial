@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import HeaderLayout from '@/components/common/HeaderLayout'
+import Provider from '@/components/layout/Provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <HeaderLayout>{children}</HeaderLayout>
+        <Provider>{children}</Provider>
       </body>
     </html>
   )
